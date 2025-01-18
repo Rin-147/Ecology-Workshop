@@ -3,4 +3,4 @@ library(tidyverse)
 library("ratdat")
 
 ggplot(data=complete_old, aes (x=weight, y = hindfoot_length))+
-  geom_point(color = "red")
+  geom_point(color = "green", alpha=0.1)
